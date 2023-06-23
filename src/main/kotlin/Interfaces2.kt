@@ -7,19 +7,19 @@ interface Calculavel{
 
 class Calculadora: Calculavel{
     override fun somar(n1: Int, n2: Int) {
-        println("$n1 + $n2 = ${n1+n2}");
+        println("$n1 + $n2 = ${n1+n2}")
     }
 
     override fun subtrair(n1: Int, n2: Int) {
-        println("$n1 - $n2 = ${n1-n2}");
+        println("$n1 - $n2 = ${n1-n2}")
     }
 
     override fun multiplicar(n1: Int, n2: Int) {
-        println("$n1 * $n2 = ${n1*n2}");
+        println("$n1 * $n2 = ${n1 * n2}")
     }
 
     override fun dividir(n1: Int, n2: Int) {
-        println("$n1 / $n2 = ${n1/n2}");
+        println("$n1 / $n2 = ${n1/n2}")
     }
 }
 
